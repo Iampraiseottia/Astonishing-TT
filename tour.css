@@ -1,0 +1,2091 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: lightgrey;
+    -webkit-animation: mymove 4s infinite;
+}
+
+nav{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    position: sticky;
+    top: 0;
+}
+
+nav .right-nav-bar .current a{
+    font-weight: 700;
+    color: lightseagreen;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.left-nav-bar{
+    font-size: 29px;
+    width: 30%;
+    color: chocolate;
+    cursor: pointer;
+}
+
+
+.left-nav-bar span{
+    color: gold;
+    font-size: 35px;
+}
+.right-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+}
+
+
+.right-nav-bar li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+
+.right-nav-bar li{
+    list-style: none;
+
+}
+
+.right-nav-bar li a:hover{
+    color: chartreuse;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sign-in{
+    width: 116px;
+    height: 45px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    transition: background-color 0.15s ;
+}
+
+
+.sign-in:hover{
+    color: gold;
+    background-color: gray;
+    font-size: 22px;
+    height: 50px;
+    width: 120px;
+    border-radius: 25px;
+    
+}
+
+.sign-in a{
+    text-decoration: none;
+}
+
+.sign-in a:hover{
+    color: gold;
+}
+
+h1{
+    text-align: center;
+}
+
+.nav-img{
+    width: 27px;
+    height: 27px;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+}
+
+/*SHOWCASE -------------------------------------------------------------------*/
+#showcase2 h1:hover{
+    font-size: 70px;
+    cursor: pointer;
+}
+
+#showcase3 p:hover{
+    font-size: 37px;
+    cursor: pointer;
+}
+
+#showcase3 h1:hover{
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.marquee3:hover{
+    font-size: 54px;
+}
+
+#showcase3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/boat3.jpg") no-repeat ;
+    width: 100%;
+    height: 650px;
+}
+
+#showcase5{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/FL4.jpg") no-repeat ;
+    width: 100%;
+    height: 650px;
+}
+
+#showcase6{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/mohbae.jpg") no-repeat ;
+    width: 100%;
+    height: 650px;
+}
+
+#showcase4 h1:hover{
+    font-size: 80px;
+}
+
+.marquee4:hover{
+    font-size: 60px;
+}
+
+#showcase4 p:hover{
+    font-size: 50px;
+}
+
+#showcase4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/airplane4.jpg") no-repeat ;
+    width: 100%;
+    height: 650px;
+}
+
+#showcase2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/helicopta1.jpg") no-repeat ;
+    width: 100%;
+    height: 650px;
+    margin-left: 5px;
+}
+
+#showcase h1:hover{
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#showcase10 .show:hover{
+    font-size: 55px
+}
+
+#showcase .marquee:hover,
+#showcase .marquee1:hover,
+#showcase .marquee2:hover,
+#showcase .marquee3:hover,
+#showcase .marquee4:hover,
+#showcase .marquee5:hover,
+#showcase .marquee6:hover{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#showcase p:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#showcase1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/ship6.jpg") no-repeat ;
+    width: 100%;
+    height: 650px;
+    margin-left: 0.6px;
+    margin-right: 0px;
+}
+#showcase{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/airplane3.jpg") no-repeat ;
+    width: 100%;
+    height: 650px;
+}
+
+#showcase10{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background:url("../img/e-train.jpg") no-repeat  0 -25px;
+    width: 100%;
+    height: 650px;
+}
+
+#showcase3 .show{
+    padding-top: 115px;
+    margin-bottom: 80px;
+    font-size: 42px;
+    color: blue;
+    font-weight: 500;
+}
+
+
+#showcase .show{
+    padding-top: 115px;
+    margin-bottom: 68px;
+    font-size: 42px;
+    color: blue;
+    font-weight: 500;
+}
+
+#showcase10 .show{
+    padding-top: 115px;
+    margin-bottom: 68px;
+    font-size: 42px;
+    color: blue;
+    font-weight: 500;
+}
+
+#showcase4 .show{
+    padding-top: 115px;
+    margin-bottom: 108px;
+    font-size: 42px;
+    color: blue;
+    font-weight: 500;
+}
+
+#showcase5 .show,
+#showcase6 .show{
+    padding-top: 115px;
+    margin-bottom: 108px;
+    font-size: 42px;
+    color: blue;
+    font-weight: 500;
+}
+
+.marquee1:hover{
+    font-size: 45px;
+    cursor: pointer;
+}
+
+#showcase1 p:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#showcase1 .show{
+    padding-top: 115px;
+    margin-bottom: 75px;
+    font-size: 42px;
+    color: blue;
+    font-weight: 500;
+   
+}
+
+#showcase2 .show{
+    padding-top: 115px;
+    margin-bottom: 75px;
+    font-size: 42px;
+    color: orange;
+    font-weight: 500;
+   
+}
+
+#showcase .show span,
+#showcase4 .show span,
+#showcase6 .show span,
+#showcase10 .show span{
+    color: gold;
+}
+
+
+
+#showcase5 .show span{
+    color: rgb(172, 155, 59);
+}
+
+
+
+#showcase1 .show span{
+    color: rgb(221, 191, 17);
+    font-size: 68px;
+}
+
+#showcase2 .show span{
+    color: brown;
+    font-size: 68px;
+}
+
+#showcase3 .show span{
+    color: gold;
+}
+
+.marquee2:hover{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.marquee2{
+    color: blue;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 66px;
+}
+
+.marquee3{
+    color: goldenrod;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee4{
+    color: goldenrod;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee5,
+.marquee6{
+    color: indianred;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee1{
+    color: lightseagreen;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 85px;
+}
+
+.marquee{
+    color: lightseagreen;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 85px;
+}
+
+.marquee10{
+    color: crimson;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 88px;
+}
+
+.marquee10:hover{
+    font-size: 50px;
+}
+
+#showcase p{
+    margin-bottom: 55px;
+    font-size: 31px;
+    color: chartreuse;
+    padding-top: 30px;
+}
+
+#showcase1 p{
+    margin-bottom: 55px;
+    font-size: 31px;
+    color: rgb(223, 223, 21);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#showcase10 p{
+    margin-bottom: 55px;
+    font-size: 31px;
+    color: yellow;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#showcase3 p{
+    margin-bottom: 55px;
+    font-size: 33px;
+    color: indianred;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#showcase2 p:hover{
+    font-size: 39px;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+
+#showcase4 p{
+    margin-bottom: 55px;
+    font-size: 33px;
+    color: indianred;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#showcase5 p,
+#showcase6 p{
+    margin-bottom: 55px;
+    font-size: 36px;
+    color: darkkhaki;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#showcase10 p:hover{
+    font-size: 37px;
+    cursor: pointer;
+    color: rgb(255, 228, 75);
+}
+
+#showcase2 p{
+    margin-bottom: 55px;
+    font-size: 33px;
+    color: rgb(221, 149, 15);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*SEMI ABOUT ------------------------------------------------------------------*/
+#semi-about{
+    margin-top: 180px;
+    display: flex;
+}
+
+#semi-about img{
+    width: 560px;
+    height: 550px;
+    margin-left: 5%;
+    margin-bottom: 30%;
+    cursor: pointer;
+}
+
+.semi-about-text{
+    margin-left: 90px;
+    width: 350px;
+    
+}
+
+#semi-about .semi-about-text .beteck:hover{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: sienna;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#semi-about .francheline:hover{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: darkgoldenrod;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.semi-about-text h2{
+    text-align: center;
+    padding-top: 14px;
+    color: blue;
+    padding-bottom: 20px;
+}
+
+.semi-about-text h2 span{
+    color: yellow;
+    cursor: pointer;
+    margin-bottom: 4px;
+    border-bottom: 1px solid sienna;
+    padding-bottom: 10px;
+}
+
+#semi-about .semi-about-text h2:hover{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+strong:hover{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20px;
+    color: lightcoral;
+}
+
+.semi-about-text p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.semi-about-text p span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#semi-about li{
+   text-align: center;
+   line-height: 1.4;
+}
+
+.btn-semi-about{
+    width: 116px;
+    height: 45px;
+    border: 1px solid lightblue;
+    border-radius: 23px;
+    cursor: pointer;
+    background-color: yellow;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    transition: background-color 0.15s ;
+    margin-top: 18px;
+
+}
+
+.btn-semi-about:hover{
+    color: gold;
+    background-color: indianred;
+    font-size: 19px;
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+strong{
+    color: blue;
+    cursor: pointer;
+}
+
+#semi-about .btn-semi-about a{
+    text-decoration: none;
+}
+
+#semi-about .btn-semi-about a:hover{
+    color: gold;
+}
+
+/*WHO AND WHY --------------------------------------------------------*/
+#who_why{
+    display: flex;
+    margin: 30px 10px 150px 50px;
+}
+
+.who{
+    width: 45%;
+    margin-left: 6px;
+    background: rgb(201, 197, 146);
+    margin-top: 130px;
+    padding: 30px 20px 30px 45px;
+}
+
+.who h2{
+    line-height: 1.5;
+    color: yellow;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.who span{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.who span:hover{
+    color: aqua;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.who h2:hover{
+    cursor: pointer;
+    color: rgb(226, 116, 62);
+    border-bottom: 1px dotted yellow;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.who h3{
+    line-height: 1.4;
+    color: rgb(189, 125, 138);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.who h3:hover{
+    cursor: pointer;
+    color: goldenrod;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.who p,
+.why p{
+    line-height: 1.5;
+}
+
+
+.why{
+    width: 45%;
+    margin-top: 130px;
+    margin-left: 55px;
+    background: rgb(199, 164, 147);
+    padding: 30px 20px 30px 45px;
+}
+
+.why h2{
+    line-height: 1.5;
+    color: silver;
+    font-size: 32px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.why h2:hover{
+    cursor: pointer;
+    color: yellow;
+    border-bottom: 1px dashed blue;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.why h3{
+    line-height: 1.4;
+    color: cyan;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.why h3:hover{
+    cursor: pointer;
+    color: darkorange;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+/*VIDEO -----------------------------------------------------------------*/
+#video{
+    height: auto;
+    position: absolute;
+    margin-bottom: 1000px;
+    z-index: -1;
+}
+
+/*PRESIDENT, CEO & FOUNDER PROFILE --------------------------------------*/
+#CEO{
+    margin: 10px 20px 100px 20px;
+    background: snow;
+    display: flex;
+}
+#CEO .CEO-img a img{
+    width: 460px;
+    height: 800px;    
+    cursor: pointer;
+}
+
+#CEO .CEO-img{
+    width: 47%;
+    padding-left: 20px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+#CEO .CEO-img p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 950;
+    font-size: 33px;
+    color: blue;
+}
+
+#CEO .CEO-img p:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+
+#CEO .CEO-img label{
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+    color: saddlebrown;
+
+}
+
+#CEO .CEO-img label:hover{
+    color: lightslategray;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.CEO-info{
+    background: rgb(201, 197, 146);
+    padding-left: 25px;
+    width: 45%;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+.CEO-info h2{
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+    border-bottom: 1px dotted darkred;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.CEO-info h2:hover{
+    font-size: 28px;
+    color: darkmagenta;
+    border-bottom: 1px dashed crimson;
+
+}
+
+.CEO-info p span{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: lightseagreen;
+}
+
+.CEO-info p span:hover{
+    font-size: 25px;
+    color: aqua;
+}
+
+#CEO .CEO-info h3{
+    text-align: center;
+    font-size: 24px;
+    color: lightslategrey;
+}
+
+#CEO .CEO-info h3:hover{
+    color: crimson;
+    font-size: 25px;
+}
+
+#CEO .CEO-info h4{
+    text-align: center;
+    line-height: 1.6;
+}
+
+#CEO .CEO-info h4:hover{
+    font-size: 19px;
+    color: lightslategray;
+    cursor: pointer;
+}
+
+
+
+/*AWARDS ------------------------------------------------------------------*/
+#award{
+    background: lightcyan;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#award h2{
+    font-size: 45px;
+    text-align: center;
+    color: gold;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 42px;
+}
+
+#award h2:hover{
+    color: darkorange;
+    cursor: pointer;
+    font-size: 55px;
+}
+
+.award-cap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.award-tmc ol li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.award-tmc {
+    padding-top: 17px;
+    padding-left: 19px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.award-tmc p:hover{
+    color: lightseagreen;
+    font-size: 17px;
+}
+
+.award-tmc li{
+    padding-top: 38px;
+}
+
+.trophies,
+.medals,
+.certificates{
+    width: 31%;
+}
+
+.trophies h3,
+.medals h3,
+.certificates h3{
+    text-align: center;
+    font-size: 30px;
+    color: lightskyblue;
+}
+
+.trophies h3:hover,
+.medals h3:hover,
+.certificates h3:hover{
+    font-size: 35px;
+    color: rgb(235, 211, 200);
+    text-align: center;
+}
+
+/*SERVIVES ---------------------------------------------------------------*/
+.service-head{
+    background: rgb(243, 226, 218);
+    margin: 200px 14px;
+    padding: 50px 10px;
+
+}
+
+#service .ngozi:hover{
+    font-size: 20px;
+    font-style: italic;
+    color: crimson;
+}
+
+.service-head h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: rgb(226, 200, 52);
+    border-bottom: 1px dotted rgb(170, 105, 75);
+    margin-bottom: 28px;
+}
+
+.service-head h1 span{
+    color: rgb(142, 142, 209);
+    font-size: 53px;
+}
+
+.service-head h1:hover{
+    font-size: 55px;
+    cursor: pointer;
+}
+
+.service-head h1 span:hover{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#service{
+    display: flex;
+}
+
+.service-offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.air-services{
+    background: rgb(179, 131, 109);
+}
+
+.water-services{
+    background: snow;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.land-services{
+    background: rgb(248, 210, 216);
+}
+
+.water-services:hover{
+    border: 1px solid silver;
+}
+
+.air-services:hover{
+    border: 1px solid darkcyan;
+}
+
+.land-services:hover{
+    border: 1px solid rgb(179, 131, 109);
+}
+
+.air-services,
+.water-services,
+.land-services{
+    width: 32%;
+    padding-left: 28px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#service h2{
+    color: rgb(104, 241, 241);
+    padding-top: 10px;
+    line-height: 1.5;
+    padding-bottom: 8px;
+}
+
+#service p{
+    line-height: 1.4s;
+    padding-bottom: 25px;
+}
+
+#service h2:hover{
+    color: lightgreen;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#service p:hover{
+    cursor: pointer;
+    font-style: italic;
+}
+
+#service .service-offer p:hover{
+    font-size: 17px;
+}
+
+/*ENJOY --------------------------------------------------------*/
+#enjoy{
+    color: gold;
+    margin: 250px;
+    font-size: 50px;
+}
+
+#enjoy span{
+    color: blue;
+}
+
+#enjoy:hover{
+    cursor: pointer;
+    font-size: 51px;
+}
+
+/*SEMI SERVICES ------------------------------------------------------*/
+#semi-services{
+    margin-top: 300px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.semi-service-content{
+    width: 30%;
+}
+
+#semi-services .semi-service-content h2:hover,
+#semi-services .semi-service-content h3:hover{
+    border-bottom: 1px solid sienna;
+    font-size: 27px;
+    padding-bottom: 7px;
+    margin-bottom: 12px;
+    color: crimson;
+}
+
+#semi-services .wendy:hover{
+    font-size: 20px;
+    color: coral;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.semi-service-img{
+    width: 68%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.semi-service-img .plane a img, 
+.semi-service-img .ship a img,
+.semi-service-img .train a img,
+.semi-service-img .helicopta a img{
+    width: 330px;
+    height: 300px;
+}
+
+.semi-service-img .plane a img:hover,
+.semi-service-img .ship a img:hover,
+.semi-service-img .train a img:hover,
+.semi-service-img .helicopta a img:hover{
+    cursor: pointer;
+}
+
+.service-see-more{
+    width: 116px;
+    height: 45px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: yellow;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 6px;
+    font-size: 17px;
+    transition: background-color 0.15s ;
+    margin-top: 20px;
+    color: black;
+}
+
+.service-see-more:hover{
+    background-color: lightskyblue;
+    width: 120px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.service-see-more a:hover{
+    color: gold;
+    font-size: 20px;
+}
+
+.semi-service-content{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#semi-services .service-see-more a{
+    text-decoration: none;
+}
+
+.semi-service-content h2,
+.semi-service-content .air h3{
+    color: yellow;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.semi-service-content p{
+    line-height: 1.3;
+}
+
+.semi-service-content ol{
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.semi-service-content span{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#semi-services{
+    text-align: center;
+}
+
+/*ONLINE ORDERING ---------------------------------------------------*/
+
+.online-order{
+    margin: 200px 20px 200px 20px;
+    background: rgb(241, 208, 214);
+    padding: 50px 23px;
+}
+
+#order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.online-order h2{
+    text-align: center;
+    font-size: 39px;
+    padding-bottom: 15px;
+    color: darkgoldenrod;
+    margin-bottom: 40px;
+}
+
+.online-order h2:hover{
+    font-size: 45px;
+    border-bottom: 1px dashed crimson;
+    color: rgb(230, 153, 60);
+    
+}
+
+.air-order,
+.land-order{
+    width: 33%;
+    background: rgb(231, 197, 182);
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.air-order:hover,
+.land-order:hover{
+    border: 1px solid snow;
+
+}
+
+.water-order{
+    width: 33%;
+    text-align: center;
+    background: snow;
+    padding: 30px 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.water-order:hover{
+    border: 2px solid rgb(231, 197, 182);
+
+}
+
+.waterline,
+.landplane,
+.airway{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.way{
+    font-size: 28px;
+}
+
+.way:hover{
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.way1{
+    font-size: 30px;
+}
+
+.way1:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.way2{
+    font-size: 29px;
+}
+
+.way2:hover{
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.way,
+.way1,
+.way2{
+    padding: 22px;
+    line-height: 1.5;
+}
+
+.airline-online,
+.landplane-online{
+    padding: 20px 10px;
+    font-size: 20px;
+    background: yellow;
+    border: 1px solid yellow;
+    border-radius: 37px;
+    font-weight: 600;
+}
+
+.waterline-online{
+    padding: 20px 10px;
+    font-size: 20px;
+    background: lightskyblue;
+    border: 1px solid lightskyblue;
+    border-radius: 37px;
+    font-weight: 600;
+}
+
+.air-order:hover,
+.water-order:hover,
+.land-order:hover{
+    width: 36%;
+}
+
+.airline-online a,
+.landplane-online a{
+    text-decoration: none;
+}
+
+.waterline-online a{
+    text-decoration: none;
+}
+
+.airline-online a:hover,
+.landplane-online a:hover{
+    color: darkorange;
+}
+
+.waterline-online a:hover{
+    color: crimson;
+}
+
+.airline-online:hover,
+.landplane-online:hover{
+    cursor: pointer;
+    font-size: 23px;
+    padding: 22px 11px;
+    background: lightskyblue;
+    font-weight: 600;
+    border: none;
+}
+
+.waterline-online:hover{
+    cursor: pointer;
+    font-size: 23px;
+    padding: 22px 11px;
+    background: darkgoldenrod;
+    font-weight: 600;
+    border: none;
+}
+
+/*AIRLINE BOOKING ----------------------------------------------*/
+.airplane{
+    margin: 200px 15px;
+    background: lightcyan;
+    padding: 40px 30px;
+}
+
+.airplane h2{
+    text-align: center;
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 13px;
+}
+
+#air-booking{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.airplane h2:hover{
+    font-size: 60px;
+    color: rgb(226, 205, 83);
+}
+
+
+
+.booking{
+    padding-top: 20px;
+    padding-bottom: 28px;
+    line-height: 1.6;
+}
+
+.booking label{
+    font-size: 20px;
+}
+
+.air-input1,
+.air-input2,
+.air-input3,
+.air-input4,
+.air-input5,
+.air-input6,
+.air-input7,
+.air-input8,
+.air-input9,
+.air-input10,
+.air-input11,
+.air-input12,
+.air-input13,
+.air-input14{
+    padding: 10px 8px;
+    margin-bottom: 11px;
+    border: 1px solid rgb(230, 166, 166);
+    border-radius: 20px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.air-input3{
+    margin-left: 100px;
+}
+
+.air-input1{
+    margin-left: 74px;
+}
+
+.air-input2{
+    margin-left: 53px;
+}
+
+.air-input4{
+    margin-left: 33px;
+}
+
+.air-input5{
+    margin-left: 40px;
+}
+
+.air-input6{
+    margin-left: 100px;
+}
+
+.air-input9{
+    margin-left: 67px;
+}
+
+.air-input8{
+    margin-left: 216px;
+}
+
+.air-input7{
+    margin-left: 24px;
+}
+
+.air-input10{
+    margin-left: 216px;
+}
+
+.air-input11{
+    margin-left: 170px;
+}
+
+.air-input12{
+    margin-left: 160px;
+}
+
+.air-input13{
+    margin-left: 14px;
+}
+
+.air-input14{
+    margin-left: 96px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox-p{
+    font-size: 28px;
+    color: brown;
+}
+
+.checkbox-p:hover{
+    font-size: 29px;
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    line-height: 1.5;
+    margin: 4px 5px;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+
+.Airline-submit{
+    width: 116px;
+    height: 45px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    transition: background-color 0.15s ;
+    margin-right: 200px;
+}
+
+.Airline-submit a:hover{
+    color: gold;
+}
+
+.Airline-submit:hover{
+    height: 50px;
+    width: 117px;
+    color: gold;
+    background-color: gray;
+    font-size: 25px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    
+
+}
+
+/*REGISTRATION ----------------------------------------------------------------*/
+#registration{
+    margin: 50px 50px;
+    text-align: center;
+    background-color: snow;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#registration h2{
+    color: chocolate;
+    font-size: 40px;
+}
+
+#registration h2:hover{
+    color: darkgoldenrod;
+    font-size: 48px;
+}
+
+.registration-input1,
+.registration-input2,
+.registration-input3,
+.registration-input4,
+.registration-input5,
+.registration-input6,
+.registration-input7,
+.registration-input8,
+.registration-input9,
+.registration-input10{
+    padding-top: 5px;
+    line-height: 1.5;
+    margin-top: 11px;
+    border: 1px solid rgb(214, 91, 116);
+    border-radius: 19px;
+    width: 300px;
+    height: 28px;
+}
+
+#registration label{
+    color: olive;
+    font-size: 20px;
+}
+
+#registration input{
+    padding: 5px 20px;
+    font-size: 17px;
+}
+
+.registration-input1{
+    margin-left: 63px;
+}
+
+.registration-input4{
+    margin-left: 103px;
+}
+
+.registration-input2,
+.registration-input3{
+    margin-left: 40px;
+}
+
+.registration-input5{
+    margin-left: 88px;
+}
+
+.registration-input6,
+.registration-input7{
+    margin-left: 20px;
+}
+
+.registration-input8{
+    margin-left: 90px;
+}
+
+
+.registration-input9{
+    margin-left: 62px;
+}
+
+
+.registration-input10{
+    margin-left: 10px;
+}
+
+#registration label:hover{
+    cursor: pointer;
+    color: crimson;
+    font-size: 22px;
+}
+
+.bessem{
+    color: red;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+.bessem:hover{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.bessem a{
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+/*SIGN-IN ---------------------------------------------------------------*/
+#login{
+    text-align: center;
+    margin: 70px 220px;
+    background: lightgoldenrodyellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+}
+
+#login h2{
+    font-size: 50px;
+    color: chocolate;
+    margin-bottom: 12px;
+}
+
+#login h2:hover{
+    color: rgb(235, 179, 39);
+    font-size: 60px;
+}
+
+#login label{
+    font-size: 20px;
+    color: rgb(104, 67, 67);
+}
+
+#login label:hover{
+    color: coral;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.login1,
+.login2,
+.login3{
+    padding: 5px 20px;
+    font-size: 16px;
+    margin-bottom: 11px;
+    border: 1px solid sienna;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+}
+
+.login1{
+    margin-left: 30px;
+}
+
+.login2{
+    margin-left: 12px;
+}
+
+.login3{
+    margin-left: 39px;
+}
+
+.ofon{
+    color: rgb(245, 46, 46);
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+.ofon:hover{
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.login{
+    padding: 10px 9px;
+    font-size: 20px;
+    background-color: rgb(119, 199, 199);
+    border: 1px solid rgb(119, 199, 199);
+    border-radius: 29px;
+    width: 100px;
+    height: 50px;
+}
+
+.login:hover{
+    font-size: 24px;
+    cursor: pointer;
+    height: 55px;
+    width: 110px;
+}
+
+.login a{
+    text-decoration: none;
+    color: gold;
+    font-weight: 700;
+}
+
+.login a:hover{
+    color: yellow;
+}
+
+/*THANKS*/
+#thanks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.thank-pic{
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgb(224, 173, 136);
+    border-radius: 50%;
+}
+
+.thank-you{
+    margin: 100px 10px;
+    background: rgb(231, 229, 197);
+    padding: 50px 20px;
+}
+
+.thank-you h2:hover{
+    font-size: 51px;
+    cursor: pointer;
+    border-bottom: 1px dotted crimson;
+    margin-bottom: 35px;
+    color: rgb(236, 151, 46);
+}
+
+.thank-you h2{
+    text-align: center;
+    font-size: 38px;
+    color: darkorange;
+    margin-bottom: 21px;
+}
+
+.thanks-1,
+.thanks-2,
+.thanks-3{
+    background: rgb(224, 173, 136);
+    padding: 38px 15px;
+    width: 32%;
+    height: 620px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.thanks-1{
+    margin-right: 12px;
+}
+
+
+.thanks-3{
+    margin-left: 12px;
+    padding-left: 33px;
+}
+
+.thanks-2{
+    padding-left: 31px;
+}
+
+.thanks-1:hover,
+.thanks-2:hover,
+.thanks-3:hover{
+    height: 640px;
+    line-height: 1.6;
+    width: 34%;
+}
+
+.thanks-1 h3,
+.thanks-2 h3,
+.thanks-3 h3{
+    color: indigo;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.thanks-1 h3:hover,
+.thanks-2 h3:hover,
+.thanks-3 h3:hover{
+    cursor: pointer;
+    font-size: 29px;
+    font-style: italic;
+}
+
+.joy{
+    font-size: 18px;
+    color: magenta;
+    
+}
+
+.joy:hover{
+    font-size: 20px;
+}
+
+.marie{
+    color: black;
+}
+
+.marie:hover{
+    color: crimson;
+    font-size: 17px;
+}
+
+.thanks-btn{
+    padding: 18px 14px;
+    font-size: 20px;
+    border: 1px solid rgb(231, 229, 197);
+    border-radius: 30px;
+    background: orange;
+    margin-top: 15px;
+}
+
+.thanks-btn a{
+    text-decoration: none;
+    color: indigo;
+}
+
+.thanks-btn:hover{
+    font-size: 25px;
+}
+
+.thanks-btn a:hover{
+    color: crimson;
+    font-size: 25px;
+}
+
+/*TESTIMONY*/
+
+#testimony{
+    margin-top: 5px;
+    margin-bottom: 100px;
+    padding: 50px 20px 60px 20px;
+    display: flex;
+    background: snow;
+}
+
+.testimony1,
+.testimony2,
+.testimony3{
+    background: rosybrown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    width: 800px;
+}
+
+.testimony1:hover,
+.testimony2:hover,
+.testimony3:hover{
+    border: 1px solid crimson;
+    width: 900px;
+    cursor: pointer;
+}
+
+.testimony1,
+.testimony2{
+    margin-right: 13px;
+}
+
+.testimony-img{
+    margin-bottom: 40px;
+}
+
+.testimony-see{
+    background: snow;
+}
+
+.testimony-see h2{
+    text-align: center;
+    padding-top: 65px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 45px;
+    color: darkorange;
+}
+
+.testimony-see h2:hover{
+    font-size: 50px;
+    color: rgb(57, 202, 202);
+    cursor: pointer;
+}
+
+.testimony-p{
+    padding-bottom: 30px;
+}
+
+.testimony-p-rating{
+    background: snow;
+    padding: 20px;
+}
+
+.testimony-rating h1{
+    text-align: center;
+    letter-spacing: 0.8;
+    color: darkturquoise;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.rating input{
+    display: none;
+}
+
+/*FOOTER -------------------------------------------------------------*/
+#footer{
+    margin-bottom: 10px;
+    background-color: lightseagreen;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.form1,
+.form2,
+.form3,
+.form4,
+.form5,
+.form6,
+.form7,
+.form8,
+.form9{
+    height: 30px;
+    width: 225px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid sienna;
+    border-radius: 15px;
+    padding-left: 15px;
+   
+}
+
+.form9{
+    margin-left: 104px;
+}
+
+.form8{
+    margin-left: 10px;
+}
+
+.form6{
+    margin-left: 32px;
+}
+
+.form7{
+    margin-left: 32px;
+}
+
+.form5{
+    margin-left: 69px;
+}
+
+
+.form4{
+    margin-left: 13px;
+}
+
+
+.form3{
+    margin-left: 62px;
+}
+
+
+.form2{
+    margin-left: 22px;
+}
+
+
+.form1{
+    margin-left: 37px;
+}
+
+#footer .message .personal-info form label{
+    margin-left: 60px;
+}
+
+#footer h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: gold;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer .message .personal-message form{
+    margin-right: 60px;
+}
+
+.email-btn{
+    width: 116px;
+    height: 45px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    margin-top: 14px;
+    transition: background-color 0.15s ;
+}
+
+.email-btn:hover{
+    background-color: gray;
+    font-size: 19px;
+
+}
+
+.email-btn a:hover{
+    color: gold;
+}
+
+.email-btn a{
+    text-decoration: none;
+}
+
+
+#email-massage{
+    margin-top: 9px;
+    padding: 20px 15px 20px 18px;
+    border: 1px solid sienna;
+    width: 360px;
+    height: 50px;
+    font-size: 17px;
+}
+
+.closing{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    
+}
+
+#footer span{
+    color: darkorange;
+}
+
+.closing:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#footer span:hover{
+    font-size: 35px;
+}
+
+#footer h3:hover{
+    font-size: 45px;
+    color: yellow;
+}
+
+.phone{
+    width: 18px;
+    height: 15px;
+    border: 1px solid lightcyan;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.da_plug{
+    padding: 40px 20px;
+    margin: 50px 140px;
+    
+    background: lightcyan;
+}
+
+.da_plug h4{
+    text-align: center;
+    color: darkorchid;
+    padding-bottom: 15px;
+    font-size: 23px;
+}
+
+.da_plug h4:hover{
+    color: darkgoldenrod;
+    font-size: 28px;
+}
+
+.callus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.callus a{
+    font-style: italic;
+    font-weight: 530;
+    color: lightsalmon;
+    font-size: 19px;
+}
+
+.callus a:hover{
+    font-size: 22px;
+}
+
+/*MEDIA QUERIES - RESPONSIVENESS*/
+@-webkit-keyframes mymove {
+    from {background-color: lightblue;}
+    to {background-color: lightcoral;}
+    50% {margin-left: 0.5px;}
+    50% {margin-right: 0.5px;}
+    50% {padding-right: 0.5px;}
+    50% {padding-left: 0.5px;}
+}
+
