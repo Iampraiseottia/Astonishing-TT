@@ -6,23 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel and Tour | by PRINZO</title>
     <link rel="stylesheet" href="../frontend/css/tour.css">
+    <link rel="stylesheet" href="../frontend/style.css">
+    <link rel="stylesheet" href="../frontend/css/header.css">
 </head>
 <body>
     <!----------------------------NAV BAR----------------------------------->
-    <nav>
-       <div class="left-nav-bar">
-        <a href="img/travel$$$.jpg"><img src="img/travel$$$.jpg" class="nav-img"></a>
-            PRINZO's <span>TRAVEL AGENCY</span> 
-       </div> 
-        <ul class="right-nav-bar">
-            <li class="current"><a href="travel.html">HOME</a></li>
-            <li><a href="About.html" target="_blank">ABOUT</a></li>
-            <li><a href="tour.html" target="_blank">SERVICES</a></li>
-            <li><a href="Booking.html" target="_blank">ONLINE-ORDER</a></li>
-            <button class="sign-in"><a href="register.html" target="_blank">SIGN-UP</a></button>
-        </ul>
-       
-    </nav>
+ 
+    <section id="header">
+        <div class="left-nav-bar">
+            <a class="showimg" style="display: none;" href="img/travel$$$.jpg"><img src="img/travel$$$.jpg" class="nav-img"></a>
+            <a class="hideimg" href="img/travel$$$.jpg"><img src="img/travel$$$.jpg" class="nav-img"></a>
+            <p class="hidehead">PRINZO's <span> AGENCY</span> </p>
+            <p class="showhead" style="display: none;">PRINZO's <span> AGENCY</span> </p>
+            <i class="fa-solid fa-x" id="close" style="cursor: pointer; position: absolute; top: 57px; right: 70px; visibility: visible;">close</i>
+            <i class="fa-solid fa-bars" id="menu" style="cursor: pointer; position: absolute; top: 57px; right: 70px; visibility: hidden;">open </i>
+    
+        </div> 
+        <nav class="nav">
+            <ul>
+                <a href="/" style="color: gold;">Home</a>
+                <a href="/about">About</a>
+                <a href="/services">Service</a>
+                <a href="/blog">Online-Order</a>
+                <a href="/contact">Contact</a>
+                <button class="donate"><a href="/donate">Sign In</a></button>
+            </ul>
+        </nav>
+       </section>
+
+
     <!------------SHOWCASE SECTION------------>
     <section id="showcase">
         <div class="show">
@@ -445,6 +457,44 @@
     
     
     <script src="prinzoagency.js"></script>
+
+    <script>
+        // Responsiveness
+        const close = document.getElementById('close');
+        const menu = document.getElementById('menu');
+        const navBar = document.querySelector('.nav');
+        const header = document.getElementById('header');
+        const hideImg = document.querySelector('.hideimg');
+        const hideHead = document.querySelector('.hidehead');
+        const showIImg = document.querySelector('.showimg');
+        const showHead = document.querySelector('.showhead');
+
+
+        menu.addEventListener('click', () => {
+            menu.style.visibility = 'hidden';
+            close.style.visibility = 'visible';
+            navBar.style.visibility = 'visible';
+            header.style.height = 'auto';
+            showHead.style.display = "none";
+            showIImg.style.display = "none";
+            hideHead.style.display = "block";
+            hideImg.style.display = "block";
+            
+        });
+
+        close.addEventListener('click', () => {
+            menu.style.visibility = 'visible';
+            close.style.visibility = 'hidden';
+            navBar.style.visibility = 'hidden';
+            header.style.height = '50px';    
+            showHead.style.display = "block";
+            showIImg.style.display = "block";
+            hideHead.style.display = "none";
+            hideImg.style.display = "none";
+            
+        });
+
+    </script>
 
 </body>
 </html>
