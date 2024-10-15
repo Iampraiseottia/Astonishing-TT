@@ -2080,12 +2080,5 @@ input[type=checkbox]{
 }
 
 /*MEDIA QUERIES - RESPONSIVENESS*/
-@-webkit-keyframes mymove {
-    from {background-color: lightblue;}
-    to {background-color: lightcoral;}
-    50% {margin-left: 0.5px;}
-    50% {margin-right: 0.5px;}
-    50% {padding-right: 0.5px;}
-    50% {padding-left: 0.5px;}
-}
+
 
